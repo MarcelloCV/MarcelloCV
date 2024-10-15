@@ -1,4 +1,10 @@
-## Hi there 👋
+## The programming languages and frameworks I am using
+### TL;DR
+I have wrapped up my takes and argumentation to top programming languages and frameworks that are oriented towards safety, reliability, and productivity as a whole: 
+
+Go as the performant statically-typed back-end language that embodies extra lightweight concurrency with “goroutines” as  “subthreads” hence outshining JavaScript async, in conjunction with Fiber, as the lightweight and blazingly fast framework boasting Fasthttp, to enable us to build web servers, REST APIs, HTTP connection, like request handling, and routing easily and flexibly, rather than using JavaScript with it’s scalable yet overheadful mainstream framework [React] having to use virtual DOM and carrying over it’s extensive UI and libraries and vast ecosystem. Go also features built-in `html/template` library package allowing us to achieve SSR/SSG by pre-rendering the page on the server during the build process, making the page reload instantly on the client side. HTMX adds interactivity into the HTML elements via attributes like `hx-get`, `hx-target` , etc. without needing to define their JavaScript code manually, hence minimal JavaScript bloating. Access to DOM for dynamic page and lazy loading for seamless navigation are the why JavaScript is necessary for HTMX to work. Bootstrap CSS framework provides the essential UI elements and styles that can be applied to the HTML elements so as needing minimal configuration if any. Lit, in it’s latest version of 3.0, might become handy as well as to eliminate boilerplate codes if we use the exact same element over and over again, this is typically the case when we have lots of similar UI elements and we are only to tweak relatively a few of their properties, though Lit element creation is all done in JavaScript regardless of it’s light-weightness.
+
+
 
 <!--
 **MarcelloCV/MarcelloCV** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
