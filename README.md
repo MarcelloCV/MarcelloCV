@@ -1,8 +1,25 @@
-## The programming languages and frameworks I am using
-### TL;DR
-I have wrapped up my takes and argumentation to top programming languages and frameworks that are oriented towards safety, reliability, and productivity as a whole: 
+### The programming languages and frameworks I am going to use over others
+TL;DR
+- Go as the performant efficient yet easy-to-use back-end language with it's handy yet lightweight web framework, namely Fiber
+- HTMX as the library to add JavaScript interactivity to HTML elements via attributes that trigger HTTP requests to server
+- Bootstrap as the CSS framework for a structured foundation and system to quickly prototype and build web applications with a consistent design language.
+  
+See [my list of frameworks and tools]().
 
-Go as the performant statically-typed back-end language that embodies extra lightweight concurrency with “goroutines” as  “subthreads” hence outshining JavaScript async, in conjunction with Fiber, as the lightweight and blazingly fast framework boasting Fasthttp, to enable us to build web servers, REST APIs, HTTP connection, like request handling, and routing easily and flexibly, rather than using JavaScript with it’s scalable yet overheadful mainstream framework [React] having to use virtual DOM and carrying over it’s extensive UI and libraries and vast ecosystem. Go also features built-in `html/template` library package allowing us to achieve SSR/SSG by pre-rendering the page on the server during the build process, making the page reload instantly on the client side. HTMX adds interactivity into the HTML elements via attributes like `hx-get`, `hx-target` , etc. without needing to define their JavaScript code manually, hence minimal JavaScript bloating. Access to DOM for dynamic page and lazy loading for seamless navigation are the why JavaScript is necessary for HTMX to work. Bootstrap CSS framework provides the essential UI elements and styles that can be applied to the HTML elements so as needing minimal configuration if any. Lit, in it’s latest version of 3.0, might become handy as well as to eliminate boilerplate codes if we use the exact same element over and over again, this is typically the case when we have lots of similar UI elements and we are only to tweak relatively a few of their properties, though Lit element creation is all done in JavaScript regardless of it’s light-weightness.
+### Planning to do WebAssembly in the future
+For WebAssembly (WASM), which is about running a pre-compiled program in the browser, suited for computation-heavy or performance-critical tasks, I am certainly looking forward to learning Rust, the low-level system language known byword for memory safety, blazingly fast execution, and strict error checking.
+
+I know Rust is no where easy to grasp at first as Rust has advanced concepts that might feel overwhelming, and require a steep learning curve to fully understand and master. Frustration can arise in Rust when learning to manage borrow checker, futures, lifetimes, and async constructs together.ut as @ThePrimeAgent put it, it would be easy once you get the hang of it, since Rust does not come with built-int async runtime so we have to rely on third-party libraries, like Tokio, async-std, or smol. But as @ThePrimeAgent put it, Rust would be easy once you get the hang of it. 
+
+See [my list of frameworks and tools]().
+
+### I have ceased using Java for the time being
+I have made up my mind to abandon Java for a while. Being my first programming language I learned back in my first semester at university, though it was actually C during my high school days but I disliked it and so just had a glimpse of it, Java has a special place for me despite, yeah I know, it is a verbose language and kind of pain to deal with once you get into a certain level, like when dealing with concurrency or asynchronous methods, or functions whatever, things start to get very complicated in that you need to be familiar with `Thread` and other related classes from Java library, not to mention that I have written a program spanning 250 lines of code just to make an async method that awaits for an input from the console before the counter times out, and that program was even still not working as intended, which made me frustrated at some point.
+
+### How I get informed about a wide range of tools and procedures and learn stuff along the way
+I mostly refer to @ThePrimeAgent to gain info around programming languages nowadays. As for coding tutorial, I like to watch @BroCode if he has made one, so I will know like the roadmap of learning. I would mostly read the documentation on programming language to get the basic idea on the syntax and the features it offers. I tend to stumble across videos that mention coding tools worth using, may it be IDE extensions/plugins, frameworks, and so forth, that is where I get to know such hidden gems.
+
+
 
 
 
