@@ -4,14 +4,14 @@ TL;DR
 - HTMX as the library to add JavaScript interactivity to HTML elements via attributes that trigger HTTP requests to server
 - Bootstrap as the CSS framework for a structured foundation and system to quickly prototype and build web applications with a consistent design language.
   
-See [my list of frameworks and tools]().
+See [my list of programming languages and tools](https://github.com/MarcelloCV/My_list_of_programming_languages_and_tools).
 
 ### Planning to do WebAssembly in the future
 For WebAssembly (WASM), which is about running a pre-compiled program in the browser, suited for computation-heavy or performance-critical tasks, I am certainly looking forward to learning Rust, the low-level system language known byword for memory safety, blazingly fast execution, and strict error checking.
 
 I know Rust is no where easy to grasp at first as Rust has advanced concepts that might feel overwhelming, and require a steep learning curve to fully understand and master. Frustration can arise in Rust when learning to manage borrow checker, futures, lifetimes, and async constructs together.ut as @ThePrimeAgent put it, it would be easy once you get the hang of it, since Rust does not come with built-int async runtime so we have to rely on third-party libraries, like Tokio, async-std, or smol. But as @ThePrimeAgent put it, Rust would be easy once you get the hang of it. 
 
-See [my list of frameworks and tools]().
+See [my list of programming languages and tools](https://github.com/MarcelloCV/My_list_of_programming_languages_and_tools).
 
 ### I have ceased using Java for the time being
 I have made up my mind to abandon Java for a while. Being my first programming language I learned back in my first semester at university, though it was actually C during my high school days but I disliked it and so just had a glimpse of it, Java has a special place for me despite, yeah I know, it is a verbose language and kind of pain to deal with once you get into a certain level, like when dealing with concurrency or asynchronous methods, or functions whatever, things start to get very complicated in that you need to be familiar with `Thread` and other related classes from Java library, not to mention that I have written a program spanning 250 lines of code just to make an async method that awaits for an input from the console before the counter times out, and that program was even still not working as intended, which made me frustrated at some point.
