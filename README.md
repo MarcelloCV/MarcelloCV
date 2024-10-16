@@ -1,4 +1,4 @@
-### The programming languages and frameworks I am going to use for next repo(s)
+### The programming languages and tools I am going to use for next repo(s)
 TL;DR
 - Go as the performant efficient yet easy-to-use back-end language with it's handy yet lightweight web framework, namely Fiber
 - HTMX as the library to add JavaScript interactivity to HTML elements via attributes that trigger HTTP requests to server
