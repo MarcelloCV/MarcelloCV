@@ -9,7 +9,7 @@ See [my list of programming languages and tools](https://github.com/MarcelloCV/M
 ### Planning to do WebAssembly in the future
 For WebAssembly (WASM), which is about running a pre-compiled program in the browser, suited for computation-heavy or performance-critical tasks, I am certainly looking forward to learning Rust, the low-level system language known byword for memory safety, blazingly fast execution, and strict error checking.
 
-I know Rust is no where easy to grasp at first as Rust has advanced concepts that might feel overwhelming, and require a steep learning curve to fully understand and master. Frustration can arise in Rust when learning to manage borrow checker, futures, lifetimes, and async constructs together.ut as @ThePrimeAgent put it, it would be easy once you get the hang of it, since Rust does not come with built-int async runtime so we have to rely on third-party libraries, like Tokio, async-std, or smol. But as @ThePrimeAgent put it, Rust would be easy once you get the hang of it. 
+I know Rust is no where easy to grasp at first as Rust has advanced concepts that might feel overwhelming, and require a steep learning curve to fully understand and master. Frustration can arise in Rust when learning to manage borrow checker, futures, lifetimes, and async constructs together, since Rust does not come with built-int async runtime so we have to rely on third-party libraries, like Tokio, async-std, or smol. But as @ThePrimeAgent put it, Rust would be easy once you get the hang of it. 
 
 See [my list of programming languages and tools](https://github.com/MarcelloCV/My_list_of_programming_languages_and_tools).
 
